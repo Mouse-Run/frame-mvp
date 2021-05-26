@@ -1,2 +1,2 @@
-include ':app', ':modulemvp', ':moduleutils'
+include ':app', ':modulemvp', ':moduleutils', ':modulewidget'
 rootProject.name='AndroidMvpFrame'
