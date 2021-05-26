@@ -1,0 +1,2 @@
+include ':app', ':modulemvp'
+rootProject.name='AndroidMvpFrame'
