@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.mouse.modulemvp.mvp.XActivity;
+import com.mouse.moduleutils.CommonUtility;
 
 public class MainActivity extends XActivity {
 

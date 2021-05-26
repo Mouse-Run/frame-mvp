@@ -4,7 +4,7 @@ buildscript {
     repositories {
         google()
         jcenter()
-        
+
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.5.2'
@@ -18,7 +18,7 @@ allprojects {
     repositories {
         google()
         jcenter()
-        maven { url 'https://www.jitpack.io'}
+        maven { url 'https://www.jitpack.io' }
     }
 }
 
@@ -28,20 +28,22 @@ task clean(type: Delete) {
 
 ext {
     libs = [
-            butterKnifeVersion: "10.2.1",
-            appcompatVersion:"1.2.0",
-            materialVersion:"1.2.1",
-            junitVersion:"4.+",
-            extJunitVersion:"1.1.2",
-            espressoCoreVersion:"3.3.0",
-            eventbusVersion:"3.0.0",
-            rxbusVersion:"1.2",
-            rxandroidVersion:"2.0.1",
-            rxjavaVersion:"2.0.1",
-            okhttpVersion:"4.9.0",
-            rxlifecycleVersion:"2.0.1",
-            rxlifecycleAndroidVersion:"2.0.1",
-            rxlifecycleComponentsVersion:"2.0.1",
-            rxpermissionsVersion:"0.9.3@aar"
+            butterKnifeVersion          : "10.2.1",
+            appcompatVersion            : "1.2.0",
+            materialVersion             : "1.2.1",
+            junitVersion                : "4.+",
+            extJunitVersion             : "1.1.2",
+            espressoCoreVersion         : "3.3.0",
+            eventbusVersion             : "3.0.0",
+            rxbusVersion                : "1.2",
+            rxandroidVersion            : "2.0.1",
+            rxjavaVersion               : "2.0.1",
+            okhttpVersion               : "4.9.0",
+            rxlifecycleVersion          : "2.0.1",
+            rxlifecycleAndroidVersion   : "2.0.1",
+            rxlifecycleComponentsVersion: "2.0.1",
+            rxpermissionsVersion        : "0.9.3@aar",
+            fastjsonVersion             : "1.2.47",
+            zxingViewVersion            : "3.3.0",
     ]
 }
