@@ -3,8 +3,6 @@ apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 group = 'com.github.Mouse-Run'
 
-def libscfg = rootProject.ext.libs
-
 android {
     compileSdkVersion 30
     buildToolsVersion "30.0.2"
@@ -36,9 +34,4 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
-
-    api 'androidx.recyclerview:recyclerview:' + libscfg.recyclerviewVersion
-    api 'com.google.android.material:material:' + libscfg.materialVersion
-
-
 }

@@ -45,5 +45,7 @@ ext {
             rxpermissionsVersion        : "0.9.3@aar",
             fastjsonVersion             : "1.2.47",
             zxingViewVersion            : "3.3.0",
+            recyclerviewVersion         : "1.0.0",
+            materialVersion             : "1.0.0"
     ]
 }
